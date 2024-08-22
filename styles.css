@@ -1,3 +1,35 @@
+body{
+    display: flex;
+}
+
 h1{
+    width: 100%;
+    color: white;
+    margin-bottom: 40vh;
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
+}
+
+#background-picture{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 60vw;
+    height: 100vh;
+    background-image: url("https://m.media-amazon.com/images/I/81zfw4XfhBL._AC_UF1000,1000_QL80_.jpg");
+    background-size: contain;
+}
+
+#right-container{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: none;
+    
+}
+
+#right-container div{
+    border: 2px solid black;
+    
 }
