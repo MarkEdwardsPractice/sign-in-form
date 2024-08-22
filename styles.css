@@ -1,4 +1,8 @@
 body{
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
     display: flex;
 }
 
@@ -25,6 +29,7 @@ h1{
     flex-direction: column;
     justify-content: space-evenly;
     border: none;
+    height: 100vh;
     
 }
 
@@ -32,8 +37,41 @@ h1{
     border: 2px solid black;
 }
 
+
+
 #right-container div{
-    height: 100%;
-    padding: 0px;
+    padding: 5px 30px 5px 30px;
     
+}
+
+#container-one{
+    flex: 1;
+}
+
+#container-one div{
+    padding-left: 60px;
+}
+
+h2{
+    padding-left: 60px;
+}
+
+form{
+    display: flex;
+}
+
+form div{
+    flex: 1;
+}
+
+#container-two{
+    flex: 1;
+}
+
+#container-three{
+    flex: 1;
+}
+
+#container-three div{
+    padding-left: 60px;
 }
