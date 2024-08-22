@@ -21,7 +21,6 @@ h1{
 }
 
 #right-container{
-    padding-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -29,7 +28,12 @@ h1{
     
 }
 
-#right-container div{
+.border-black{
     border: 2px solid black;
+}
+
+#right-container div{
+    height: 100%;
+    padding: 0px;
     
 }
